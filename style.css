@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top,
+            #ffffff, #f3e0f9, #f7bde4, #ff97bb,
+            #ff7282, #f4586b, #e73954, #da003d,
+            #bd0051, #940060, #600069, #090069);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.resume {
+    width: 850px;
+    max-width: 100%;
+    background-color: white;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 4px solid #da003d;
+
+    display: block;
+    margin: auto;
+
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #090069;
+
+    margin-top: 15px;
+
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h3 {
+    margin-top: 8px;
+    color: #555;
+}
+
+/* Horizontal Line */
+
+hr {
+    margin-top: 20px;
+    border: 1px solid #da003d;
+}
+
+/* Sections */
+
+section {
+    margin-top: 25px;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-3px);
+}
+
+.headings {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #da003d;
+
+    border-bottom: 3px solid #da003d;
+    padding-bottom: 5px;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.information {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    line-height: 1.7;
+
+    margin-top: 10px;
+}
+
+/* Lists */
+
+ul {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Skills Box */
+
+.skills {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin-top: 15px;
+    padding: 15px 35px;
+
+    background-color: #f8f4ff;
+
+    border-left: 5px solid #da003d;
+    border-radius: 8px;
+
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+
+a {
+    color: #090069;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #da003d;
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 15px;
+
+    border-top: 1px solid #ccc;
+
+    color: #555;
+    font-size: 14px;
+}
